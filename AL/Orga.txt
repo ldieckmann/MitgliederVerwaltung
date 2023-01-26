@@ -1,0 +1,11 @@
+Mitglieder
+    Liste  
+    card
+    table
+Preis
+    tabelle - zuordung von alter und arbeit zu preis
+    liste
+Jurnale
+    tabelle
+    Kontenübersicht für Mitglieder
+    
