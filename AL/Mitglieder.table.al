@@ -32,6 +32,9 @@ table 50000 Mitglieder
         {
 
         }
-        field(8; Workgroup)
+        field(8; Workgroup; Enum Workgroup)
+        {
+
+        }
     }
-    }
+}
