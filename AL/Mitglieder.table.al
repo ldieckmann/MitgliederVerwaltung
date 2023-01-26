@@ -36,5 +36,18 @@ table 50000 Mitglieder
         {
 
         }
+        field(20; NameOfPayer; Text[50])
+        {
+
+        }
+        field(21; BankName; Text[50])
+        {
+
+        }
+        field(22; IBAN; Code[13])
+        {
+
+        }
+
     }
 }
