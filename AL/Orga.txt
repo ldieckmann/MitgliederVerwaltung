@@ -5,7 +5,6 @@ Mitglieder
 Preis
     tabelle - zuordung von alter und arbeit zu preis
     liste
-Jurnale
-    tabelle
-    Kontenübersicht für Mitglieder
-    
+Journale
+    tabelle 
+    Kontenübersicht
