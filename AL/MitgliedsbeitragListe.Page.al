@@ -9,7 +9,8 @@ page 50001 Mitgliedsbeitrag
     {
         area(Content)
         {
-            group(GroupName)
+
+            repeater(GroupName)
             {
                 field(Age; Rec.Age)
                 {
