@@ -23,22 +23,22 @@ page 50000 MitgliederListe
                     Caption = '';
 
                 }
-                field(Vorname; Rec.Vorname)
+                field(FirstName; Rec.FirstName)
                 {
                     Caption = '';
 
                 }
-                field(Adresse; Rec.Adresse)
+                field(Adress; Rec.Adress)
                 {
                     Caption = '';
 
                 }
-                field(Ort; Rec.Ort)
+                field(City; Rec.City)
                 {
                     Caption = '';
 
                 }
-                field(PLZ; Rec.PLZ)
+                field(PostCode; Rec.PostCode)
                 {
                     Caption = '';
 
