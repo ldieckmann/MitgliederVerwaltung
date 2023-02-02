@@ -8,3 +8,6 @@ Preis
 Journale
     tabelle 
     Kontenübersicht
+Zlg.-Buchblatt
+    Zugang/Abgang
+    
