@@ -1,7 +1,7 @@
 table 50002 "Journal Line"
 {
     Caption = 'Journal Line';
-
+    //Werteposten
     fields
     {
         field(1; EntryNo; Integer)

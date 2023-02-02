@@ -4,7 +4,7 @@ page 50005 GenJournalLine
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = GenJournalLine;
-
+    //Buchungsblatt
     layout
     {
         area(Content)

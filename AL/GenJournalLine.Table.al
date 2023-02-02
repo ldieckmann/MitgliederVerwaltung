@@ -11,6 +11,10 @@ table 50004 GenJournalLine
         {
             Caption = 'Amount';
         }
+        field(3; AccountNo; Code[20])
+        {
+            Caption = 'Account No.';
+        }
     }
 
     keys
