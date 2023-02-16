@@ -26,6 +26,7 @@ codeunit 50000 "Post Journal Line"
             JournalLine.Amount := GenJournalLine.Amount;
             JournalLine.Insert();
         until GenJournalLine.Next() = 0;
+        GenJournalLine.DeleteAll();
     end;
 
 
