@@ -15,6 +15,19 @@ table 50004 "GenJournalLine"
         {
             Caption = 'Account No.';
         }
+        field(5; PostingDate; Date)
+        {
+            Caption = 'Posting Date';
+            ClosingDates = true;
+        }
+        field(6; "Posting No."; Code[10])
+        {
+            Caption = 'Posting No.';
+        }
+        field(7; "Document No"; Code[10])
+        {
+            Caption = 'Document No.';
+        }
     }
 
     keys
@@ -24,5 +37,4 @@ table 50004 "GenJournalLine"
 
         }
     }
-
 }

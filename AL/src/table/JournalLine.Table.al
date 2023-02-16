@@ -13,7 +13,7 @@ table 50002 "Journal Line"
         {
             Caption = 'Description';
         }
-        field(3; PostingNo; Blob)
+        field(3; PostingNo; Code[10])
         {
             Caption = 'Posting No.';
         }
@@ -30,6 +30,10 @@ table 50002 "Journal Line"
         {
             Caption = 'Amount';
         }
+        field(7; "Document No"; Code[10])
+        {
+            Caption = 'Document No.';
+        }
     }
     keys
     {
@@ -37,4 +41,5 @@ table 50002 "Journal Line"
         {
         }
     }
+
 }

@@ -26,6 +26,10 @@ page 50002 "JournalLine"
                 {
                     ToolTip = 'Specifies the value of the Posting No. field.';
                 }
+                field("Document No"; Rec."Document No")
+                {
+                    ToolTip = 'Specifies the value of the Document No. field.';
+                }
                 field(Description; Rec.Description)
                 {
                     ToolTip = 'Specifies the value of the Description field.';
