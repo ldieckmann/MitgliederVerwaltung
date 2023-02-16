@@ -1,9 +1,10 @@
-page 50002 JournalLine
+page 50002 "JournalLine"
 {
     ApplicationArea = All;
     SourceTable = "Journal Line";
     Editable = false;
     PageType = List;
+    AutoSplitKey = true;
     UsageCategory = History;
 
     layout

@@ -1,4 +1,4 @@
-page 50000 MitgliederListe
+page 50000 "MitgliederListe"
 {
     Caption = 'Mitglieder Liste';
     ApplicationArea = all;

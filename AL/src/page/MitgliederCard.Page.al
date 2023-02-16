@@ -1,4 +1,4 @@
-page 50003 MitgliederCard
+page 50003 "MitgliederCard"
 {
     SourceTable = Mitglieder;
     Caption = 'Mitglieder';

@@ -1,4 +1,4 @@
-table 50003 Setup
+table 50003 "Setup"
 {
     Caption = 'Setup';
 

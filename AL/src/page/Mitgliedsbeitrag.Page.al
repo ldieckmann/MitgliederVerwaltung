@@ -1,17 +1,27 @@
-page 50005 GenJournalLine
+page 50001 "Mitgliedsbeitrag"
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = GenJournalLine;
-    //Buchungsblatt
+    SourceTable = Mitgliedsbeitrag;
+
     layout
     {
         area(Content)
         {
-            group(GroupName)
+
+            repeater(GroupName)
             {
-                field(Amount; Rec.Amount)
+                field(Age; Rec.Age)
+                {
+                    ApplicationArea = All;
+
+                }
+                field(WorkGroup; Rec.WorkGroup)
+                {
+                    ApplicationArea = All;
+                }
+                field(Price; Rec.Price)
                 {
                     ApplicationArea = All;
                 }
@@ -34,7 +44,4 @@ page 50005 GenJournalLine
             }
         }
     }
-
-    var
-        myInt: Integer;
 }

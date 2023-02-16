@@ -1,4 +1,4 @@
-table 50000 Mitglieder
+table 50000 "Mitglieder"
 {
     Caption = 'Mitglieder';
 

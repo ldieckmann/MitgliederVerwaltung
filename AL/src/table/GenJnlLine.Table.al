@@ -1,4 +1,4 @@
-table 50004 GenJournalLine
+table 50004 "GenJournalLine"
 {
 
     fields
@@ -24,4 +24,5 @@ table 50004 GenJournalLine
 
         }
     }
+
 }

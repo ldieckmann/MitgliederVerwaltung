@@ -1,4 +1,4 @@
-page 50004 SetupPage
+page 50004 "SetupPage"
 {
     Caption = 'Setup';
     ApplicationArea = all;

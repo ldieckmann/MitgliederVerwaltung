@@ -1,4 +1,4 @@
-enum 50001 PostingType
+enum 50001 "PostingType"
 {
     Extensible = true;
 
